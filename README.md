@@ -1,1 +1,1 @@
-# Yalnix.github.io
+# yalnix.github.io
