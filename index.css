@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 2em;
+    padding: 0.5em;
+    padding-left: 1em;
+}
+
+body {
+    background: lightblue;
+}
+
+div#ChatFrame {background: lightgoldenrodyellow;padding: 3em;}
+
+footer {
+    flex: auto;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+div#MidFrame {
+    display: flex;
+    padding: 22em;
+}
+
+div#RightSpacer {
+    flex: 15;
+}
