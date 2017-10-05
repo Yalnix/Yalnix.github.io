@@ -13,7 +13,11 @@ body {
     background: lightblue;
 }
 
-div#ChatFrame {background: lightgoldenrodyellow;padding: 3em;}
+div#ChatFrame {
+    background: lightgoldenrodyellow;
+    padding: 3em;
+    height: 45em;
+}
 
 footer {
     flex: auto;
@@ -23,7 +27,7 @@ footer {
 
 div#MidFrame {
     display: flex;
-    padding: 22em;
+    flex-direction: column;
 }
 
 div#RightSpacer {
