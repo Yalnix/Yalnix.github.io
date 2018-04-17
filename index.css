@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 2em;
+    padding: 0.5em;
+    padding-left: 1em;
+}
+
+body {
+    background: lightblue;
+}
+
+div#ChatFrame {
+    background: lightgoldenrodyellow;
+    padding: 3em;
+    height: 45em;
+}
+
+footer {
+    flex: auto;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+div#MidFrame {
+    display: flex;
+    flex-direction: column;
+}
+
+div#RightSpacer {
+    flex: 15;
+}
+
+button {
+  background-image: url(TutButWebVer.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 81px;
+  width: 242px;
+  border: none;
+}
+
+button span {
+  display: none;
+}
